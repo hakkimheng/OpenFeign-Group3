@@ -3,8 +3,6 @@ package com.jpa.openfeign.model;
 import lombok.*;
 
 @Data
-@Setter
-@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
