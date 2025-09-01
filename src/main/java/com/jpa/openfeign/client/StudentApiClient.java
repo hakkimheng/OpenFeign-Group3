@@ -9,7 +9,8 @@ import java.util.List;
 
 @FeignClient(
         name = "studentAPI",
-        url = "https://67d2fa458bca322cc268b50c.mockapi.io/student"
+        url = "https://67d2fa458bca322cc268b50c.mockapi.io/",
+        path = "student"
 )
 public interface StudentApiClient {
 

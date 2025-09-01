@@ -50,7 +50,6 @@ public class StudentWebClientController {
                     .uri("/{id}", id)
                     .bodyValue(req)
                     .retrieve()
-                    // If upstream returns no body for PUT, use .toBodilessEntity().then(Mono.just(...)) or return Mono<Void>.
                     .bodyToMono(Student.class);
         }
 
